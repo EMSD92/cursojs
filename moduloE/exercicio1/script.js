@@ -12,7 +12,7 @@ function contar(){
         let f = Number(fim.value)
         let p = Number(pas.value)
 
-        if(p >=0){
+        if(p <=0){
             window.alert('Passo invalido, considerando passo 1')
             p=1
         }
